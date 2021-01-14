@@ -1,0 +1,263 @@
+Initializing TensorFlow...
+Running util_scripts.invert_gan()...
+Loading network from "results_new/241-pgan-latent512-fusedup_convk2_1conv-1conv_fuseddown_convk3-case11_extended-normLatent_T-preset-v2-8gpus-HIST/network-final.pkl"...
+Setting up result dir...
+Saving results to results_new/245-invert-gan-case11_extended-241
+Streaming data using dataset.TFRecordDataset...
+Dataset shape = [1, 1024, 1024]
+Dynamic range = [0, 255]
+Label size    = 0
+number of images:192
+...... trial 1/12 ......
+Start sampling method
+lowest initial error
+[0.07435928 0.06718467 0.07214845 0.06661677 0.07756685 0.06600914
+ 0.06118782 0.06040997 0.05873976 0.06560187 0.07077298 0.06467903
+ 0.06542203 0.06798613 0.06053281 0.06763475]
+Finish sampling method in 491.9 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06184 
+step 2000     learning_rate 8.000000e-03 loss 0.06169 
+step 3000     learning_rate 6.400000e-03 loss 0.06155 
+step 4000     learning_rate 5.120000e-03 loss 0.06145 
+step 5000     learning_rate 4.096000e-03 loss 0.06138 
+step 6000     learning_rate 3.276800e-03 loss 0.06132 
+step 7000     learning_rate 2.621440e-03 loss 0.06123 
+step 8000     learning_rate 2.097152e-03 loss 0.06121 
+step 9000     learning_rate 1.677722e-03 loss 0.06115 
+step 10000    learning_rate 1.342177e-03 loss 0.06111 
+step 11000    learning_rate 1.073742e-03 loss 0.06112 
+step 12000    learning_rate 8.589935e-04 loss 0.06104 
+...... trial 2/12 ......
+Start sampling method
+lowest initial error
+[0.06110489 0.06199129 0.06421703 0.0607485  0.0603227  0.06313514
+ 0.06168123 0.0623056  0.06274417 0.0646141  0.06325506 0.06811622
+ 0.06261312 0.06176262 0.06388674 0.06555199]
+Finish sampling method in 487.9 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06051 
+step 2000     learning_rate 8.000000e-03 loss 0.06036 
+step 3000     learning_rate 6.400000e-03 loss 0.06026 
+step 4000     learning_rate 5.120000e-03 loss 0.06016 
+step 5000     learning_rate 4.096000e-03 loss 0.06008 
+step 6000     learning_rate 3.276800e-03 loss 0.06002 
+step 7000     learning_rate 2.621440e-03 loss 0.05998 
+step 8000     learning_rate 2.097152e-03 loss 0.05990 
+step 9000     learning_rate 1.677722e-03 loss 0.05988 
+step 10000    learning_rate 1.342177e-03 loss 0.05983 
+step 11000    learning_rate 1.073742e-03 loss 0.05979 
+step 12000    learning_rate 8.589935e-04 loss 0.05976 
+...... trial 3/12 ......
+Start sampling method
+lowest initial error
+[0.06854911 0.06843822 0.0690181  0.0689131  0.067884   0.06827838
+ 0.07027638 0.06766446 0.07146528 0.06901265 0.06723962 0.06783449
+ 0.0634358  0.06194874 0.06151656 0.06746092]
+Finish sampling method in 488.4 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06284 
+step 2000     learning_rate 8.000000e-03 loss 0.06264 
+step 3000     learning_rate 6.400000e-03 loss 0.06249 
+step 4000     learning_rate 5.120000e-03 loss 0.06237 
+step 5000     learning_rate 4.096000e-03 loss 0.06228 
+step 6000     learning_rate 3.276800e-03 loss 0.06220 
+step 7000     learning_rate 2.621440e-03 loss 0.06214 
+step 8000     learning_rate 2.097152e-03 loss 0.06207 
+step 9000     learning_rate 1.677722e-03 loss 0.06203 
+step 10000    learning_rate 1.342177e-03 loss 0.06198 
+step 11000    learning_rate 1.073742e-03 loss 0.06194 
+step 12000    learning_rate 8.589935e-04 loss 0.06191 
+...... trial 4/12 ......
+Start sampling method
+lowest initial error
+[0.06586882 0.06974107 0.063897   0.06936546 0.06110787 0.05854105
+ 0.0617738  0.06050656 0.06102002 0.05713857 0.05804139 0.06056472
+ 0.05744424 0.06049599 0.05962147 0.05859957]
+Finish sampling method in 487.2 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.05835 
+step 2000     learning_rate 8.000000e-03 loss 0.05815 
+step 3000     learning_rate 6.400000e-03 loss 0.05799 
+step 4000     learning_rate 5.120000e-03 loss 0.05788 
+step 5000     learning_rate 4.096000e-03 loss 0.05779 
+step 6000     learning_rate 3.276800e-03 loss 0.05771 
+step 7000     learning_rate 2.621440e-03 loss 0.05766 
+step 8000     learning_rate 2.097152e-03 loss 0.05762 
+step 9000     learning_rate 1.677722e-03 loss 0.05757 
+step 10000    learning_rate 1.342177e-03 loss 0.05753 
+step 11000    learning_rate 1.073742e-03 loss 0.05748 
+step 12000    learning_rate 8.589935e-04 loss 0.05748 
+...... trial 5/12 ......
+Start sampling method
+lowest initial error
+[0.06347931 0.06285232 0.06751349 0.06385252 0.07287226 0.06297871
+ 0.0619152  0.05770919 0.06011433 0.06152799 0.06032072 0.06286258
+ 0.062307   0.06206725 0.06326862 0.05831145]
+Finish sampling method in 487.7 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.05955 
+step 2000     learning_rate 8.000000e-03 loss 0.05941 
+step 3000     learning_rate 6.400000e-03 loss 0.05927 
+step 4000     learning_rate 5.120000e-03 loss 0.05916 
+step 5000     learning_rate 4.096000e-03 loss 0.05911 
+step 6000     learning_rate 3.276800e-03 loss 0.05906 
+step 7000     learning_rate 2.621440e-03 loss 0.05899 
+step 8000     learning_rate 2.097152e-03 loss 0.05894 
+step 9000     learning_rate 1.677722e-03 loss 0.05889 
+step 10000    learning_rate 1.342177e-03 loss 0.05886 
+step 11000    learning_rate 1.073742e-03 loss 0.05881 
+step 12000    learning_rate 8.589935e-04 loss 0.05879 
+...... trial 6/12 ......
+Start sampling method
+lowest initial error
+[0.05853225 0.05713174 0.05850607 0.05729073 0.06125385 0.06689999
+ 0.06758569 0.06301476 0.060201   0.06771113 0.06676816 0.06213928
+ 0.07256842 0.06532012 0.06378901 0.06274479]
+Finish sampling method in 488.0 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.05980 
+step 2000     learning_rate 8.000000e-03 loss 0.05963 
+step 3000     learning_rate 6.400000e-03 loss 0.05950 
+step 4000     learning_rate 5.120000e-03 loss 0.05943 
+step 5000     learning_rate 4.096000e-03 loss 0.05937 
+step 6000     learning_rate 3.276800e-03 loss 0.05928 
+step 7000     learning_rate 2.621440e-03 loss 0.05924 
+step 8000     learning_rate 2.097152e-03 loss 0.05917 
+step 9000     learning_rate 1.677722e-03 loss 0.05914 
+step 10000    learning_rate 1.342177e-03 loss 0.05908 
+step 11000    learning_rate 1.073742e-03 loss 0.05906 
+step 12000    learning_rate 8.589935e-04 loss 0.05904 
+...... trial 7/12 ......
+Start sampling method
+lowest initial error
+[0.0621486  0.05924094 0.07274892 0.07057512 0.06565234 0.06237987
+ 0.06122207 0.06198356 0.06296577 0.06339106 0.06418718 0.07181372
+ 0.0657792  0.06651501 0.07505464 0.06747441]
+Finish sampling method in 487.1 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06059 
+step 2000     learning_rate 8.000000e-03 loss 0.06045 
+step 3000     learning_rate 6.400000e-03 loss 0.06034 
+step 4000     learning_rate 5.120000e-03 loss 0.06021 
+step 5000     learning_rate 4.096000e-03 loss 0.06012 
+step 6000     learning_rate 3.276800e-03 loss 0.06004 
+step 7000     learning_rate 2.621440e-03 loss 0.05998 
+step 8000     learning_rate 2.097152e-03 loss 0.05993 
+step 9000     learning_rate 1.677722e-03 loss 0.05987 
+step 10000    learning_rate 1.342177e-03 loss 0.05984 
+step 11000    learning_rate 1.073742e-03 loss 0.05978 
+step 12000    learning_rate 8.589935e-04 loss 0.05976 
+...... trial 8/12 ......
+Start sampling method
+lowest initial error
+[0.06798472 0.06849726 0.06962842 0.04692392 0.05470897 0.06851392
+ 0.07098514 0.07601754 0.0662803  0.07067312 0.06756029 0.07347923
+ 0.07361891 0.06687283 0.06729636 0.06703743]
+Finish sampling method in 488.3 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06335 
+step 2000     learning_rate 8.000000e-03 loss 0.06322 
+step 3000     learning_rate 6.400000e-03 loss 0.06309 
+step 4000     learning_rate 5.120000e-03 loss 0.06299 
+step 5000     learning_rate 4.096000e-03 loss 0.06294 
+step 6000     learning_rate 3.276800e-03 loss 0.06285 
+step 7000     learning_rate 2.621440e-03 loss 0.06280 
+step 8000     learning_rate 2.097152e-03 loss 0.06275 
+step 9000     learning_rate 1.677722e-03 loss 0.06272 
+step 10000    learning_rate 1.342177e-03 loss 0.06268 
+step 11000    learning_rate 1.073742e-03 loss 0.06265 
+step 12000    learning_rate 8.589935e-04 loss 0.06267 
+...... trial 9/12 ......
+Start sampling method
+lowest initial error
+[0.07235453 0.07027919 0.08203602 0.0728624  0.06711437 0.06594481
+ 0.0689526  0.06401785 0.06645182 0.0643523  0.07351664 0.06570008
+ 0.06462608 0.06509845 0.06328605 0.06156586]
+Finish sampling method in 489.2 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06794 
+step 2000     learning_rate 8.000000e-03 loss 0.06826 
+step 3000     learning_rate 6.400000e-03 loss 0.06825 
+step 4000     learning_rate 5.120000e-03 loss 0.06803 
+step 5000     learning_rate 4.096000e-03 loss 0.06802 
+step 6000     learning_rate 3.276800e-03 loss 0.06813 
+step 7000     learning_rate 2.621440e-03 loss 0.06717 
+step 8000     learning_rate 2.097152e-03 loss 0.06708 
+step 9000     learning_rate 1.677722e-03 loss 0.06324 
+step 10000    learning_rate 1.342177e-03 loss 0.06321 
+step 11000    learning_rate 1.073742e-03 loss 0.06316 
+step 12000    learning_rate 8.589935e-04 loss 0.06312 
+...... trial 10/12 ......
+Start sampling method
+lowest initial error
+[0.06012639 0.06523207 0.07230393 0.06558687 0.06536888 0.06550982
+ 0.0694273  0.07157397 0.06425135 0.06731261 0.06323737 0.06336489
+ 0.06703772 0.06246899 0.06662258 0.06432953]
+Finish sampling method in 488.1 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.06323 
+step 2000     learning_rate 8.000000e-03 loss 0.06310 
+step 3000     learning_rate 6.400000e-03 loss 0.06299 
+step 4000     learning_rate 5.120000e-03 loss 0.06295 
+step 5000     learning_rate 4.096000e-03 loss 0.06282 
+step 6000     learning_rate 3.276800e-03 loss 0.06278 
+step 7000     learning_rate 2.621440e-03 loss 0.06268 
+step 8000     learning_rate 2.097152e-03 loss 0.06266 
+step 9000     learning_rate 1.677722e-03 loss 0.06260 
+step 10000    learning_rate 1.342177e-03 loss 0.06255 
+step 11000    learning_rate 1.073742e-03 loss 0.06252 
+step 12000    learning_rate 8.589935e-04 loss 0.06249 
+...... trial 11/12 ......
+Start sampling method
+lowest initial error
+[0.06648532 0.0659721  0.06508627 0.06926253 0.06750985 0.06283924
+ 0.06535254 0.06401932 0.06662249 0.06454234 0.05394237 0.05573294
+ 0.05535952 0.05560184 0.0562631  0.05533626]
+Finish sampling method in 489.8 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.05940 
+step 2000     learning_rate 8.000000e-03 loss 0.05930 
+step 3000     learning_rate 6.400000e-03 loss 0.05920 
+step 4000     learning_rate 5.120000e-03 loss 0.05914 
+step 5000     learning_rate 4.096000e-03 loss 0.05907 
+step 6000     learning_rate 3.276800e-03 loss 0.05903 
+step 7000     learning_rate 2.621440e-03 loss 0.05898 
+step 8000     learning_rate 2.097152e-03 loss 0.05895 
+step 9000     learning_rate 1.677722e-03 loss 0.05893 
+step 10000    learning_rate 1.342177e-03 loss 0.05888 
+step 11000    learning_rate 1.073742e-03 loss 0.05887 
+step 12000    learning_rate 8.589935e-04 loss 0.05884 
+...... trial 12/12 ......
+Start sampling method
+lowest initial error
+[0.05703407 0.05958172 0.05678876 0.06215206 0.06401446 0.0696518
+ 0.06024192 0.05830665 0.06056835 0.06023948 0.05818932 0.05968036
+ 0.05827973 0.05743957 0.05697927 0.05673475]
+Finish sampling method in 489.8 sec
+Building TensorFlow graph...
+Training...
+step 1000     learning_rate 1.000000e-02 loss 0.05627 
+step 2000     learning_rate 8.000000e-03 loss 0.05614 
+step 3000     learning_rate 6.400000e-03 loss 0.05603 
+step 4000     learning_rate 5.120000e-03 loss 0.05598 
+step 5000     learning_rate 4.096000e-03 loss 0.05589 
+step 6000     learning_rate 3.276800e-03 loss 0.05584 
+step 7000     learning_rate 2.621440e-03 loss 0.05578 
+step 8000     learning_rate 2.097152e-03 loss 0.05576 
+step 9000     learning_rate 1.677722e-03 loss 0.05570 
+step 10000    learning_rate 1.342177e-03 loss 0.05567 
+step 11000    learning_rate 1.073742e-03 loss 0.05563 
+step 12000    learning_rate 8.589935e-04 loss 0.05561 
+Exiting...
